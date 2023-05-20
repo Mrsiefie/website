@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#MainContainer{
+    
+
+    width: 100%;
+    background-color:rgb(212, 229, 223);
+    
+    border: 1px solid rgb(51, 9, 201);
+}
+ #MainContainer #Logo{
+    width: 100%;
+
+    
+    height: 100px;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+#MainContainer #Logo .LogoImage{
+    width: 12vh;
+    background-image: url("/image/logo.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid green;
+    margin-left: 5px;
+    float: left;
+
+
+}
+#MainContainer #Logo .LogoText{
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 10px;
+    float: left;
+
+}
+#MainContainer #header{
+    
+    
+    margin-top: 5px;
+    height: 70px;
+    font-size: 25px;
+    
+    border: 2px solid purple;
+    outline: ridge;
+    
+    background: linear-gradient(#9a5405, #D5D533);
+    background: -webkit-linear-gradient(#bc058b, #D5D533);
+    background: -o-linear-gradient(#0db0c6, #590144);
+    background: -moz-linear-gradient(#F8F594, #c10e9d);
+    border-radius: 10px;
+    padding: 10px;
+
+    
+}
+#MainContainer #header a{
+    outline: ridge;
+    
+    
+    color: white;
+    border: 1px solid  rebeccapurple;
+    background: linear-gradient(#12880e, #340220);
+    background: -webkit-linear-gradient(#F8F594, #c66091);
+    background: -o-linear-gradient(#0a49d0, #87096e);
+    background: -moz-linear-gradient(#de8717, #a78d25);
+    float: left;
+    padding: 0 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+    
+
+}
+#MainContainer #header .Home{
+    margin-left: 70px;
+}
+#MainContainer #success{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: red;
+    
+}
+
+
+
+
+#introduction{
+    padding: 30px;
+    margin: 16px 0;
+
+
+}
+#introduction h2{
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+
+}
+
+#introduction p{
+    font-size: 25px; 
+    color: #628F19;
+    text-align: justify;
+}
+#MainContainer #services{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+#MainContainer #services #img{
+    width: 50%;
+    height: 500px;
+
+    float: left;
+}
+#MainContainer #services #item{
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+#MainContainer #services img{
+    border: 2px solid purple;
+    border-radius: 50%;
+    float: left;
+}
+
+#MainContainer #services #item p{
+    font-size: 45px;
+     margin-top: 25px;
+    color: lightblue;
+    font-style: italic; 
+    
+}
